@@ -1,0 +1,5 @@
+middleware:-
+1.midleware is the function which takes three parameter that req ,res, next
+2.req is used to get the data from user,res is used to send some data and next is the function which is called after each middleware so that after running the current one it will go to the next one 
+3.middleware is basically used for authentication to check whether if some one requested for the data is the authenticate user or not if it is authenticate then middleware pass the data otherwise not .
+ 4.we can used middleware in two ways as we can used it to whole application or we can also used it for specific route
